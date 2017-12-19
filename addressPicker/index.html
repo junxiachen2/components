@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仿京东地址选择器(省市区街道)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<div id="adText"></div>
+
+<div id="adPicker">
+    <div class="adPickerMasker"></div>
+    <div class="adPickerBody">
+        <div class="header">所在地区<img class="close-btn" src="images/close.png"></div>
+        <div class="tabs">
+            <span data-i="1" id="tab1" class="tab current">请选择</span>
+            <span data-i="2" id="tab2" class="tab"></span>
+            <span data-i="3" id="tab3" class="tab"></span>
+            <span data-i="4" id="tab4" class="tab"></span>
+        </div>
+        <div id="contentBox" class="contentBox"></div>
+    </div>
+</div>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
